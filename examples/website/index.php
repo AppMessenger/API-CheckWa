@@ -515,7 +515,7 @@ $('#formsearch').on('submit',function(e){
     $('.resultwindow').show();
     $.ajax({
         type: "POST",
-        url: "API/index.php?",
+        url: "api/index.php?",
         data: data,
         cache: false,
         success: function(html){
