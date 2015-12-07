@@ -37,7 +37,7 @@ date_default_timezone_set('Europe/Madrid');
 			else { echo '<img src="'.$cw['image_pre'].'">'; } // TEMPLATE IMAGE PROFILE IF USER DON'T HAVE IMAGE
 		}
 		else if ($cw['result'] == "N") {
-			// THAT NUMBER DON'T USE WHATSAPP
+			// THAT NUMBER DON'T USE WHATSAPP OR NO RESPONSE FROM WHATSAPP INC
 		}
 	}
 	else { // ERROR CONTROL
